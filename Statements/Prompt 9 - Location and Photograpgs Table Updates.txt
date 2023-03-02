@@ -1,0 +1,23 @@
+-- UPDATING / INSERTING NEW DATA INTO TABLE: LOCATION
+INSERT INTO locations
+VALUES	(1, 'Independence Hall', 794.35, 651.43),
+		(2, '6709 Wonder Street', 323.41, 412.22),
+		(1, 'Sunrise', 221.45, 132.43),
+		(2, '356 A Street', 123.32, 222.43),
+		(1, 'Mountains', 34.12, 87.99),
+		(2, '900 Start Street', 1071.9, 206.45),
+		(1, 'Moonrise', 816.2, 111.2),
+		(2, '183714 N North Street', 176.11, 11.176);
+-- OUTPUTTING THE RESULTS
+SELECT * FROM location;
+
+
+-- UPDATING / INSERTING NEW DATA INTO TABLE: PHOTOGRAPH
+INSERT INTO photograph
+VALUES	(1,2,1),
+		(2,4,1),
+		(3,6,3),
+		(4,8,4);
+-- OUTPUTTING THE RESULTS
+SELECT * FROM photograph;
+

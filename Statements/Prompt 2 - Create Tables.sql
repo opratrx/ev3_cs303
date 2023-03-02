@@ -1,0 +1,27 @@
+-- CREATING THE USERID TABLE
+CREATE TABLE users(
+	userid INT NOT NULL PRIMARY KEY UNIQUE AUTO_INCREMENT,
+	name VARCHAR(50),
+	username VARCHAR(20),
+	address	VARCHAR(50),
+	city VARCHAR(20),
+	state VARCHAR(2),
+	zip INT(5),
+	password VARCHAR(20)
+);
+
+-- CREATING THE LOCATIONS TABLE
+CREATE TABLE location(
+	itemid INT NOT NULL AUTO_INCREMENT,
+	type INT,
+	description VARCHAR(50),
+	lng REAL,
+	lat REAL
+);
+
+-- CREATING THE PHOTOGRAPHS TABLE
+CREATE TABLE photographs(
+	photoid INT,
+	locationid INT
+);
+
